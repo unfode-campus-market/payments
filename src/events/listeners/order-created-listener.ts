@@ -1,4 +1,4 @@
-import {Listener, OrderCreatedEvent, OrderStatus, Subjects} from "@campus-market/common";
+import {Listener, OrderCreatedEvent, Subjects} from "@campus-market/common";
 import {queueGroupName} from "./queue-group-name";
 import {Message} from "node-nats-streaming";
 import {Order} from "../../models/order";

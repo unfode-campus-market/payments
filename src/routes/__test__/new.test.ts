@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 import {app} from "../../app";
 import {Order} from "../../models/order";
 import {OrderStatus} from "@campus-market/common";
-import {stripe} from "../../stripe";
 
 jest.mock('../../stripe');
 
